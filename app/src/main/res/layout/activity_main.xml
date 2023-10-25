@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
+    <!-- Título -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,7 +18,7 @@
         android:textAlignment="center"
         android:layout_marginLeft="110dp"
     />
-
+    <!-- Subtítulo -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
         android:layout_marginLeft="105dp"
         android:textAlignment="center"
     />
-
+    <!-- Línea de opciones -->
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -41,7 +41,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
         tools:context=".MainActivity">
-
+        <!-- Opción 1 -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -52,6 +52,7 @@
             android:layout_marginLeft="0dp"
             android:textAlignment="center"
         />
+        <!-- Opción 2 -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -62,7 +63,7 @@
             android:layout_marginLeft="40dp"
             android:textAlignment="center"
         />
-
+        <!-- Opción 3 -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -73,9 +74,8 @@
             android:layout_marginLeft="55dp"
             android:textAlignment="center"
         />
-
     </LinearLayout>
-
+    <!-- Línea de Texto -->
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -87,7 +87,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
         tools:context=".MainActivity">
-
+        <!-- Texto 1 -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -97,7 +97,8 @@
             android:textSize="10pt"
             android:layout_marginLeft="0dp"
             android:textAlignment="center"
-            />
+        />
+        <!-- Texto 2 -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -107,8 +108,8 @@
             android:textSize="10pt"
             android:layout_marginLeft="00dp"
             android:textAlignment="center"
-            />
-
+        />
+        <!-- Texto 3 -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -119,7 +120,5 @@
             android:layout_marginLeft="0dp"
             android:textAlignment="center"
             />
-
     </LinearLayout>
-
 </LinearLayout>
